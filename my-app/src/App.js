@@ -2,7 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return <div className="App">Homepage</div>;
+  return (
+    <>
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
