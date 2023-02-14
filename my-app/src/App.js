@@ -1,12 +1,22 @@
-import logo from "./logo.svg";
 import "./App.css";
+import "./Components/Nav.css";
+import "./Components/HeroSection.css";
+import "./Components/Highlights.css";
+import Footer from "./Components/Footer";
+import Nav from "./Components/Nav";
+import HeroSection from "./Components/HeroSection";
+import Testimonials from "./Components/Testimonials";
+import Highlights from "./Components/Highlights";
+import About from "./Components/About";
 
 function App() {
   return (
     <>
-      <Header />
       <Nav />
-      <Main />
+      <HeroSection />
+      <Highlights />
+      <Testimonials />
+      <About />
       <Footer />
     </>
   );
