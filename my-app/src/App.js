@@ -1,7 +1,10 @@
 import "./App.css";
-import "./Components/Nav.css";
-import "./Components/HeroSection.css";
-import "./Components/Highlights.css";
+import "./assets/css/Nav.css";
+import "./assets/css/HeroSection.css";
+import "./assets/css/Highlights.css";
+import "./assets/css/Testimonial.css";
+import "./assets/css/About.css";
+import "./assets/css/Footer.css";
 import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import HeroSection from "./Components/HeroSection";

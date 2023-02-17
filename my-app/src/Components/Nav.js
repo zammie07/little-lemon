@@ -3,7 +3,11 @@ import React from "react";
 function Nav() {
   return (
     <nav className="navbar">
-      <img src="Logo.svg" alt="logo" className="lemon-logo"></img>
+      <img
+        src="/src/assets/images/Logo.svg"
+        alt="logo"
+        className="lemon-logo"
+      ></img>
       <ul className="nav-item">
         <li>
           <a href="/home">Home</a>
