@@ -14,14 +14,16 @@ import About from "./Components/About";
 
 function App() {
   return (
-    <>
-      <Nav />
-      <HeroSection />
-      <Highlights />
-      <Testimonials />
-      <About />
+    <div className="page-container">
+      <div className="content-wrap">
+        <Nav />
+        <HeroSection />
+        <Highlights />
+        <Testimonials />
+        <About />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
